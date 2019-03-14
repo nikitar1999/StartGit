@@ -23,4 +23,19 @@
         tools:layout_editor_absoluteX="102dp"
         tools:layout_editor_absoluteY="216dp" />
 
+    <FrameLayout
+        android:layout_width="395dp"
+        android:layout_height="340dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="383dp">
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+    </FrameLayout>
+
 </android.support.constraint.ConstraintLayout>
